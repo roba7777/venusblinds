@@ -175,4 +175,8 @@ $(document).ready(function(){
 	/*! Select*/
 	$('.dimensions-width').select2();
 	$('.dimensions-length').select2();
+	// Style all <select> elements
+	
+	// Style everything
+$("select, input, a.button, button").uniform();
 })
